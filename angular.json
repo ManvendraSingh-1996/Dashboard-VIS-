@@ -27,7 +27,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [ "https://fastly.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js"]
           },
           "configurations": {
             "production": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "25731bdb-1bda-4105-a2aa-3f4db9549023"
   }
 }
