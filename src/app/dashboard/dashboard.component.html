@@ -6,7 +6,7 @@
     </div>
     <div class="charts_container">
         <div class="pie_charts_container">
-            <div id="pi_chart_1" class="pi_chart">
+            <div id="pi_chart_1" class="pi_chart">               
                 <div class="vehicle_title">TOTAL INSPECTION</div>
                 <div echarts [options]="option1" ></div>               
             </div>
@@ -35,6 +35,14 @@
                     Avg Check Time : 90s
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="graph_container">
+        <div class="bar_graph_container"  >
+            <div echarts [options]="option4"></div>
+        </div>
+        <div class="line_graph_container" >
+            <div echarts [options]="option5"></div>
         </div>
     </div>
 </div>
