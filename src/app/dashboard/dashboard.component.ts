@@ -164,7 +164,7 @@ option4 :echarts.EChartsOption = {
   xAxis: [
     {
       type: 'category',
-      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+      data: ['Combi', 'Rear Lamp', 'Front Lamp', 'Rear Spec', 'Front Spec'],
       axisTick: {
         alignWithLabel: true
       }
@@ -240,7 +240,7 @@ option5 :echarts.EChartsOption = {
     }
   },
   legend: {
-    data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine']
+    data: ['Uncleared Vehicle', 'Cleared Vehicle', 'Total Vehicle']
   },
   toolbox: {
     feature: {
@@ -267,27 +267,7 @@ option5 :echarts.EChartsOption = {
   ],
   series: [
     {
-      name: 'Email',
-      type: 'line',
-      stack: 'Total',
-      areaStyle: {},
-      emphasis: {
-        focus: 'series'
-      },
-      data: [120, 132, 101, 134, 90, 230, 210]
-    },
-    {
-      name: 'Union Ads',
-      type: 'line',
-      stack: 'Total',
-      areaStyle: {},
-      emphasis: {
-        focus: 'series'
-      },
-      data: [220, 182, 191, 234, 290, 330, 310]
-    },
-    {
-      name: 'Video Ads',
+      name: 'Uncleared Vehicle',
       type: 'line',
       stack: 'Total',
       areaStyle: {},
@@ -297,7 +277,7 @@ option5 :echarts.EChartsOption = {
       data: [150, 232, 201, 154, 190, 330, 410]
     },
     {
-      name: 'Direct',
+      name: 'Cleared Vehicle',
       type: 'line',
       stack: 'Total',
       areaStyle: {},
@@ -307,7 +287,7 @@ option5 :echarts.EChartsOption = {
       data: [320, 332, 301, 334, 390, 330, 320]
     },
     {
-      name: 'Search Engine',
+      name: 'Total Vehicle',
       type: 'line',
       stack: 'Total',
       label: {

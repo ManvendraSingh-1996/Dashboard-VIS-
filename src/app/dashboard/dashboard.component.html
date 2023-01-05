@@ -8,7 +8,9 @@
         <div class="pie_charts_container">
             <div id="pi_chart_1" class="pi_chart">               
                 <div class="vehicle_title">TOTAL INSPECTION</div>
-                <div echarts [options]="option1" ></div>               
+                <div echarts [options]="option1"
+                style="display: flex; align-items: center;justify-content: center;"
+                ></div>               
             </div>
             <div id="pi_chart_2" class="pi_chart" >
                 <div class="vehicle_title">INNOVA</div>
@@ -39,10 +41,10 @@
     </div>
     <div class="graph_container">
         <div class="bar_graph_container"  >
-            <div echarts [options]="option4"></div>
+            <div echarts [options]="option4" style="width:100%"></div>
         </div>
         <div class="line_graph_container" >
-            <div echarts [options]="option5"></div>
+            <div echarts [options]="option5" style="width:100%"></div>
         </div>
     </div>
 </div>
